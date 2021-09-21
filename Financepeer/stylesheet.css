@@ -1,0 +1,190 @@
+*{
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  margin:0px;
+  padding:0px;
+  font-weight:bold;
+}
+
+body{
+  background: whitesmoke;   
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+a{
+  text-decoration: none;
+}
+
+.logo{
+  margin:0px;
+  padding:0px;
+}
+
+input{
+  outline:none;
+}
+
+ul{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/*---Buttons---*/
+
+.greenbutton{
+  background-color:green;
+  border-radius: 8px;
+  border:none;
+  border:1px solid transparent;
+  padding:10px;
+  font-size: 15px;
+}
+
+.greenbutton:hover{
+  border:1px solid black;
+  background-color: darkgreen;
+}
+
+.redbutton{
+  background-color:red;
+  border-radius: 8px;
+  border:1px solid transparent;
+  padding:10px;
+  font-size: 15px;
+}
+
+.redbutton:hover{
+  border:1px solid black;
+  background-color: darkred;
+}
+
+.button{
+  background-color: rgb(220, 20, 60,0.8);
+  color:darkblue;
+  padding:10px;
+  font-size: 15px;
+  border:1px solid transparent;
+}
+
+.button:hover{
+  border:1px solid black;
+  background-color: tomato;
+}
+
+/*---login.php---*/
+
+
+.login{
+  background: whitesmoke;   
+}
+
+
+
+.login_container{
+  background-color: white;
+  width:40%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border:1px solid black;
+  border-radius: 10px;
+  padding:20px;
+}
+
+
+
+.login_button{
+  width:80%;
+  margin:15px 10%;
+}
+
+.login_input{
+  width: 80%;
+  padding: 10px;
+  margin: 10px 10% 0;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  transition: 0.5s;
+  outline:none;
+  background-color: aliceblue;
+}
+
+.login_input:hover{
+  border: 3px solid #555;
+}
+
+.submit{
+  width:20%;
+  margin:0 40%;
+}
+
+/*Navigation*/
+.head{
+  height:60px;
+  background-color:rgba(5, 205, 255);
+}
+
+.logo{
+  float:left;
+  padding:15px;
+}
+
+.nav_item{
+  padding:15px;
+}
+
+.logo{
+  font-size: 25px;
+  color:rgb(0, 255, 234);
+  background-color:rgb(0, 47, 255);
+}
+
+
+.nav_link{
+  font-size: 25px;
+  color:wheat;
+}
+
+.nav_item:hover, .nav_link:hover{
+  background-color:rgba(5, 205, 255,0.5);
+  color:rgba(0, 81, 255, 1);
+}
+.left_nav{
+ float: left;
+}
+
+.right_nav{
+  float:right;
+}
+
+/*--upload.php--*/
+
+.upload{
+  width:30%;
+  margin:10px 35%;
+}
+/*--display--*/
+
+.table{
+
+  width:80%;
+  margin:50px 10% 50px;
+  border-radius: 5px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding:10px;
+}
+
+tr:nth-child(even) {background:rgba(5, 205, 255,0.1)}
+
